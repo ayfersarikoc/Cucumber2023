@@ -83,4 +83,5 @@ public class AmazonStepDefinitions {
         String actualIlkUrunIsmi=amazonPage.ilkUrunIsimElementi.getText();
         Assert.assertTrue(actualIlkUrunIsmi.contains(ararananUrun));
     }
+    //deneme post
 }
