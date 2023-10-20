@@ -13,10 +13,12 @@ public class GoogleStepdefinitions {
 
     @Given("cookies kabul eder")
     public void cookies_kabul_eder() {
+    googlePage.cookiesKabulButonu.click();
 
     }
     @Then("google da {string} icin arama yapar")
     public void google_da_icin_arama_yapar(String istenenKelime) {
+        googlePage.googleSearchBox.click();
         googlePage.googleSearchBox.sendKeys(istenenKelime+ Keys.ENTER);
 
     }

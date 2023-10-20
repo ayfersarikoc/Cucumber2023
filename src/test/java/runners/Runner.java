@@ -10,9 +10,9 @@ import org.junit.runner.RunWith;
         plugin = {"html:target/cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"},
-        features = "features",
+        features = "src/resources/features",
         glue = "stepdefinitions",
-        tags ="@wipt",
+        tags ="@wip",
         dryRun = false
 )
 public class Runner {
